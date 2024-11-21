@@ -1,0 +1,14 @@
+appName: frontend
+port: 80
+
+serviceType: ClusterIP
+servicePort: 80
+
+
+replicas: 1
+
+env: 
+  bu: expense 
+
+schemaLoaderEnabled: false 
+ingressEnabled: true

@@ -1,0 +1,19 @@
+appName: backend
+port: 8080
+
+serviceType: ClusterIP
+servicePort: 8080
+
+replicas: 1
+
+env: 
+   DB_HOST: "dev-rds.c93whrwsdihk.us-east-1.rds.amazonaws.com"
+   app_repo: "https://github.com/expenseapp-001/expense-backend.git"
+   login_host: "dev-rds.c93whrwsdihk.us-east-1.rds.amazonaws.com"
+   login_user: admin1 
+   login_password: ExpenseApp123
+   schema_file: /app/schema/backend.sql
+   bu: expense
+
+schemaLoaderEnabled: true
+ingressEnabled: false
