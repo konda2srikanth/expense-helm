@@ -1,7 +1,7 @@
 appName: frontend
 port: 80
 
-serviceType: ClusterIP
+serviceType: LoadBalencer
 servicePort: 80
 
 
