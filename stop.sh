@@ -1,1 +1,2 @@
-argocd app delete backend -y ; argocd app delete frontend -y
+argocd app delete backend --yes
+argocd app delete frontend --yes
