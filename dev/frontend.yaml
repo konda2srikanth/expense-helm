@@ -1,7 +1,7 @@
 appName: frontend
 port: 80
 
-serviceType: LoadBalencer
+serviceType: LoadBalancer
 servicePort: 80
 
 
